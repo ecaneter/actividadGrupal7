@@ -1,7 +1,8 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
   height: auto;
+  font-size: large;
   
 }
 main{
@@ -10,26 +11,26 @@ main{
   
 }
 nav{
-  background-color: rgb(76, 1, 92);
+  background-color: rgb(235, 235, 235);
   padding: 20px;
-  color:white;
+  color:rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 
-.nav-link:hover { color: #b2afdd; } 
+.nav-link:hover { color: #ff0000; } 
 
 .nav-link {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
 
 footer{
   font-size: larger;
-  background-color: rgb(76, 1, 92);
+  background-color: rgb(0, 0, 0);
   padding: 50px;
   color: aliceblue;
   text-align: center;
